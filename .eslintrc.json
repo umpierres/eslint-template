@@ -46,6 +46,13 @@
                 "ts": "never",
                 "tsx": "never"
             }
+        ],
+        "no-unused-vars": [
+            "warn",
+            {
+                "vars": "all",
+                "args": "after-used"
+            }
         ]
     },
     "settings": {
